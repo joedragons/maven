@@ -84,7 +84,7 @@ public class StringSearchModelInterpolator
                                              this, getLogger() );
 
             /*added to test LIFT-3656 removal case*/
-            @Deprecated(forRemoval = true)
+            @Deprecated( forRemoval = true )
             ModelInterpolationException error = AccessController.doPrivileged( action );
 
             if ( error != null )
