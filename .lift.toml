@@ -1,1 +1,2 @@
-ignoreRules = [ "no-empty" ]
+//ignoreRules = [ "no-empty" ]
+importantRules = [ "StringSplitter", "UnusedVariable", "ReferenceEquality" ]
