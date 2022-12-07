@@ -60,9 +60,9 @@ public class Authentication
      *
      * @param password password of the user
      */
-    public void setPassword( String password )
+    public void setPassword( String passWord )
     {
-        this.password = password;
+        this.password = passWord;
     }
 
     /**
